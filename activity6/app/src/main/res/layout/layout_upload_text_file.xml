@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/student_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="@string/file_upload_and_download" />
+
+        <TextView
+            android:id="@+id/uploadFileTV"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/uploadBT"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_text_file" />
+
+        <Button
+            android:id="@+id/downloadBT"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/download_text_file" />
+
+        <TextView
+            android:id="@+id/downloadFileTV"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
